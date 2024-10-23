@@ -1,10 +1,3 @@
-// Preview Image on Upload
-function previewImage(event) {
-    const preview = document.getElementById('image-preview');
-    preview.src = URL.createObjectURL(event.target.files[0]);
-    preview.classList.remove('hidden');
-}
-
 // Add More Education
 function addEducation() {
     const educationSection = document.getElementById('education-section');
